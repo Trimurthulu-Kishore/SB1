@@ -24,7 +24,7 @@
 	%>
 	<table border="1" width="100%">
 		<thead>
-			<th>Product ID</th>
+			
 			<th>Product Name</th>
 			<th>Product Quantity</th>
 			<th>Product Cost</th>
@@ -32,7 +32,7 @@
 		<tbody>
 			<% for(KitDetail kit : kits) { %>
 			<tr>
-			    <td><%=kit.getProductId()%></td> 
+			     
 				<td><%=kit.getPname()%></td>
 				<td><%=kit.getQuantity()%></td>
 				<td><%=kit.getAmount()%></td>
